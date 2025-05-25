@@ -1,7 +1,13 @@
-import React from "react";
+import Profile from "./components/Profile";
+import SideBar from "./components/SideBar";
 
 const App = () => {
-  return <div className="w-10 h-20 bg-red-400">App</div>;
+  return (
+    <div>
+      <SideBar />
+      <Profile />
+    </div>
+  );
 };
 
 export default App;
