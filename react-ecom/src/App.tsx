@@ -1,5 +1,14 @@
+import SideBar from "./components/SideBar";
+import { BrowserRouter as Router } from "react-router-dom";
+
 const App = () => {
-  return <div className="text-red-400">App</div>;
+  return (
+    <Router>
+      <div>
+        <SideBar />
+      </div>
+    </Router>
+  );
 };
 
 export default App;
